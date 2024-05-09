@@ -1,0 +1,67 @@
+# Youtube
+
+python -m venv myenv
+C:\Users\Admin\AppData\Local\Programs\Python\Python3.11\python -m venv myenv
+
+myenv\Scripts\activate
+
+deactivate
+
+pip install -r requirements.txt
+
+if you are not able to install the requirements then remove the package which is causing the issue and then install that package individually after upgrading the pip
+Also try without installing the package
+
+python manage.py makemigrations
+
+python manage.py migrate
+
+python manage.py runserver
+
+ctlr + c (To exit)
+
+# Youtube:
+
+charu
+
+hello@123
+
+charu_test@gmail.com
+
+---
+instead of 
+from django.conf.urls import url
+use 
+from django.urls import path, re_path
+
+url(r'^myview/$', my_view, name='my-view'),
+path('myview/', my_view, name='my-view'),
+
+---
+
+use {% load static %} instead of {% load staticfiles %} inhtml files
+
+---
+
+if yout get django.template.exceptions.TemplateDoesNotExist: bootstrap4/uni_form.html
+pip install django-crispy-forms
+pip install crispy-bootstrap4
+
+---
+
+pip install django-crispy-forms
+
+Add crispy_forms to INSTALLED_APPS: Open your project's settings.py file.
+Find the INSTALLED_APPS setting and ensure 'crispy_forms' is listed within the single quotes and brackets. For example:
+
+Python
+INSTALLED_APPS = [
+    # ... other installed apps
+    'crispy_forms',
+]
+
+(Optional) Update CRISPY_TEMPLATE_PACK (if using a specific template pack):
+
+Restart your development server:
+
+---
