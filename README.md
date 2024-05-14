@@ -23,7 +23,7 @@ Youtube Clone is a Django project designed to replicate the basic functionality 
 - Frameworks : `Django`
 - Frontend : `HTML, CSS, JavaScript`
 
-# How to run the Twitter Clone project
+# How to run the Youtube Clone project
 
 1. Git Clone the project with: `git clone https://github.com/charukeerthi/Youtube-Clone.git`
 
